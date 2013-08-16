@@ -14,20 +14,30 @@
 
 @implementation SLDSecondViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)init
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super init];
     if (self) {
         self.title = NSLocalizedString(@"Second", @"Second");
         self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
     return self;
 }
-							
+
+-(void)loadView {
+    UIView* newView = [[[UIView alloc] init] autorelease];
+    newView.backgroundColor = [UIColor greenColor];
+    self.view = newView;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    NSLog(@"view frame is %@", NSStringFromCGRect(self.view.frame));
 }
 
 - (void)didReceiveMemoryWarning

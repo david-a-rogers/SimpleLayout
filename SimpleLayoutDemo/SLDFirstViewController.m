@@ -14,20 +14,31 @@
 
 @implementation SLDFirstViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
+
+-(id) init {
+	self = [super init];
+	if (self != nil) {
         self.title = NSLocalizedString(@"First", @"First");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
-    }
-    return self;
+ 	}
+	return self;
+}
+
+
+-(void)loadView {
+    UIView* newView = [[[UIView alloc] init] autorelease];
+    newView.backgroundColor = [UIColor blueColor];
+    self.view = newView;
 }
 							
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    NSLog(@"view frame is %@", NSStringFromCGRect(self.view.frame));
 }
 
 - (void)didReceiveMemoryWarning

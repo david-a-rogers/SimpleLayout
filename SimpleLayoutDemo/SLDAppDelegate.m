@@ -25,8 +25,8 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[SLDFirstViewController alloc] initWithNibName:@"SLDFirstViewController" bundle:nil] autorelease];
-    UIViewController *viewController2 = [[[SLDSecondViewController alloc] initWithNibName:@"SLDSecondViewController" bundle:nil] autorelease];
+    UIViewController *viewController1 = [[[SLDFirstViewController alloc] init] autorelease];
+    UIViewController *viewController2 = [[[SLDSecondViewController alloc] init] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
     self.tabBarController.viewControllers = @[viewController1, viewController2];
     self.window.rootViewController = self.tabBarController;
