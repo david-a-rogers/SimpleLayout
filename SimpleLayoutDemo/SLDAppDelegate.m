@@ -9,8 +9,8 @@
 #import "SLDAppDelegate.h"
 
 #import "SLDFirstViewController.h"
-
 #import "SLDSecondViewController.h"
+#import "SLDThirdViewController.h"
 
 @implementation SLDAppDelegate
 
@@ -27,8 +27,9 @@
     // Override point for customization after application launch.
     UIViewController *viewController1 = [[[SLDFirstViewController alloc] init] autorelease];
     UIViewController *viewController2 = [[[SLDSecondViewController alloc] init] autorelease];
+    UIViewController *viewController3 = [[[SLDThirdViewController alloc] init] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[viewController1, viewController2, viewController3];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
