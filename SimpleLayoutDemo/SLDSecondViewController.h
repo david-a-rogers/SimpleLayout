@@ -10,4 +10,9 @@
 
 @interface SLDSecondViewController : UIViewController
 
+@property (assign, nonatomic) UISlider* topSlider;
+@property (assign, nonatomic) UILabel* topLabel;
+@property (assign, nonatomic) UILabel* bottomLabel;
+@property (assign, nonatomic) UISlider* bottomSlider;
+
 @end
