@@ -73,10 +73,13 @@
     self.bottomSlider.centerX = self.view.centerX;
     self.bottomSlider.bottom = self.view.bottom - kSLEdgeStandardSpace;
     
+    // Calculate the remaining vertical space
     CGFloat availableSpace = self.bottomSlider.top - self.topSlider.bottom;
+    // Then subtract the height of the two labels
     availableSpace -= self.topLabel.height;
     availableSpace -= self.bottomLabel.height;
     
+    // Divide the available space in three for each of the spaces.
     CGFloat oneSpace = availableSpace / 3;
     
     // === topLabel ===
