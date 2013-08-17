@@ -19,7 +19,7 @@
 {
     self = [super init];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
+        self.title = NSLocalizedString(@"Simple Layout", @"Simple Layout");
         self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
     return self;
@@ -27,7 +27,7 @@
 
 -(void)loadView {
     UIView* newView = [[[UIView alloc] init] autorelease];
-    newView.backgroundColor = [UIColor blueColor];
+    newView.backgroundColor = [UIColor lightGrayColor];
     self.view = newView;
 }
 

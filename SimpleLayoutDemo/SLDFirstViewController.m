@@ -33,7 +33,7 @@
 
 -(void)loadView {
     UIView* newView = [[[UIView alloc] init] autorelease];
-    newView.backgroundColor = [UIColor blueColor];
+    newView.backgroundColor = [UIColor lightGrayColor];
     self.view = newView;
 }
 							
