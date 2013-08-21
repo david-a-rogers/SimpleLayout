@@ -1,6 +1,7 @@
 SimpleLayout
 ============
 
-SimpleLayout is a simple alternative to iOS' auto layout.  Download the project and try it out.
+SimpleLayout is a simple alternative to iOS' auto layout.
 
-Or take a look at the SimpleLayout class in SimpleLayout/UIView+SimpleLayout.m and .h
+Read the documentation in docs/SimpleLayout.pdf or download the project and try it out.
+
