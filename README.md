@@ -13,7 +13,7 @@ The existing solutions for layout in iOS, the autoresizing mask and autolayout, 
 
 SimpleLayout takes a minimalist approach.  Like autolayout, it allows you to refer to the edges, center, width, and height of a view.  Unlike autolayout, it does so in a compact and readable form.
 
-Here's a short example:
+Here's a short example that lays out four controls:
 
 ```objective-c
 -(void) viewWillLayoutSubviews {
