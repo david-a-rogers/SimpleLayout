@@ -31,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC22732D17C6E7970023D3E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		FCC198DB17BF019E008AF1C9 /* SLDThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDThirdViewController.h; sourceTree = "<group>"; };
 		FCC198DC17BF019E008AF1C9 /* SLDThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDThirdViewController.m; sourceTree = "<group>"; };
 		FCC198DD17BF019E008AF1C9 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.png; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		FCEFB37417BEECC800762F7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC22732D17C6E7970023D3E0 /* README.md */,
 				FCEFB37517BEECC800762F7C /* SimpleLayoutDemo-Info.plist */,
 				FCEFB37617BEECC800762F7C /* InfoPlist.strings */,
 				FCEFB37917BEECC800762F7C /* main.m */,
