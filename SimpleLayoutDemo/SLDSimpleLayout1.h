@@ -10,9 +10,9 @@
 
 @interface SLDSimpleLayout1 : UIViewController
 
-@property (assign, nonatomic) UISlider* topSlider;
-@property (assign, nonatomic) UILabel* topLabel;
-@property (assign, nonatomic) UILabel* bottomLabel;
-@property (assign, nonatomic) UISlider* bottomSlider;
+@property (strong, nonatomic) UISlider* topSlider;
+@property (strong, nonatomic) UILabel* topLabel;
+@property (strong, nonatomic) UILabel* bottomLabel;
+@property (strong, nonatomic) UISlider* bottomSlider;
 
 @end
