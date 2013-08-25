@@ -19,7 +19,7 @@
 	self = [super init];
 	if (self != nil) {
         self.title = NSLocalizedString(@"Auto Layout", @"Auto Layout");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.tabBarItem.image = [UIImage imageNamed:@"second"];
  	}
 	return self;
 }

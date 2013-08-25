@@ -20,7 +20,7 @@
     self = [super init];
     if (self) {
         self.title = NSLocalizedString(@"Simple Layout One", @"Simple Layout One");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
+        self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;
 }
