@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1B118B17CA6DC600D5732A /* SLDSimpleLayout2View.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B118A17CA6DC600D5732A /* SLDSimpleLayout2View.m */; };
 		FCC198DF17BF019E008AF1C9 /* SLDSimpleLayout1.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC198DC17BF019E008AF1C9 /* SLDSimpleLayout1.m */; };
 		FCC198E017BF019E008AF1C9 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC198DD17BF019E008AF1C9 /* third.png */; };
 		FCC198E117BF019E008AF1C9 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC198DE17BF019E008AF1C9 /* third@2x.png */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC1B118917CA6DC600D5732A /* SLDSimpleLayout2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDSimpleLayout2View.h; sourceTree = "<group>"; };
+		FC1B118A17CA6DC600D5732A /* SLDSimpleLayout2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDSimpleLayout2View.m; sourceTree = "<group>"; };
 		FC22732D17C6E7970023D3E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		FCC198DB17BF019E008AF1C9 /* SLDSimpleLayout1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDSimpleLayout1.h; sourceTree = "<group>"; };
 		FCC198DC17BF019E008AF1C9 /* SLDSimpleLayout1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDSimpleLayout1.m; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				FCC198DC17BF019E008AF1C9 /* SLDSimpleLayout1.m */,
 				FCEFB38517BEECC800762F7C /* SLDSimpleLayout2.h */,
 				FCEFB38617BEECC800762F7C /* SLDSimpleLayout2.m */,
+				FC1B118917CA6DC600D5732A /* SLDSimpleLayout2View.h */,
+				FC1B118A17CA6DC600D5732A /* SLDSimpleLayout2View.m */,
 				FCEFB38C17BEECC800762F7C /* SLDAutoLayout.h */,
 				FCEFB38D17BEECC800762F7C /* SLDAutoLayout.m */,
 				FCEFB38817BEECC800762F7C /* first.png */,
@@ -217,6 +222,7 @@
 				FCEFB38E17BEECC800762F7C /* SLDAutoLayout.m in Sources */,
 				FCC198DF17BF019E008AF1C9 /* SLDSimpleLayout1.m in Sources */,
 				FCC198E417BFD4AB008AF1C9 /* UIView+SimpleLayout.m in Sources */,
+				FC1B118B17CA6DC600D5732A /* SLDSimpleLayout2View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
