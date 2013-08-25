@@ -175,10 +175,6 @@
 
 }
 
--(void)viewDidAppear:(BOOL)animated {
-    NSLog(@"view frame is %@", NSStringFromCGRect(self.view.frame));
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
