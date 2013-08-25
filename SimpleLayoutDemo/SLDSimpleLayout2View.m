@@ -46,6 +46,8 @@
     [self addSubview: self.button3];
 
     self.textView = [[UITextView alloc] init];
+    self.textView.editable = NO;
+    [self fillTextView];
     [self addSubview: self.textView];
 }
 
@@ -145,6 +147,39 @@
     else {
         [self doLandscapeLayout];
     }
+}
+
+-(void) fillTextView {
+    self.textView.text =
+    @"Lorem ipsum dolor sit amet, consectetur adipiscing "
+    "elit. Pellentesque vel ipsum gravida risus tincidunt tristique. Mauris "
+    "volutpat dui eu tempus mattis. Suspendisse eget nisl justo. Vestibulum "
+    "ullamcorper scelerisque risus interdum rutrum. Curabitur semper, massa "
+    "at elementum porta, neque nunc vehicula ligula, quis varius metus "
+    "mauris et lectus. Mauris eu risus ac nisi aliquam tempor vitae non "
+    "libero. Nulla eu risus at nunc placerat bibendum in et turpis. Sed nec "
+    "pharetra nulla, nec ultricies eros. Nunc dictum semper odio sed "
+    "ullamcorper. Aliquam pellentesque risus sed lorem sagittis, ut aliquam "
+    "augue tempor. Sed dictum urna vel ullamcorper ultrices. Class aptent "
+    "taciti sociosqu ad litora torquent per conubia nostra, per inceptos "
+    "himenaeos. Integer vestibulum pharetra arcu. Morbi bibendum justo "
+    "lorem, sed aliquam nulla tincidunt eget. Donec nec luctus arcu, id "
+    "fermentum sem. Morbi malesuada tempor elit eu lacinia."
+    @"\n\nLorem ipsum dolor sit amet, consectetur adipiscing "
+    "elit. Pellentesque vel ipsum gravida risus tincidunt tristique. Mauris "
+    "volutpat dui eu tempus mattis. Suspendisse eget nisl justo. Vestibulum "
+    "ullamcorper scelerisque risus interdum rutrum. Curabitur semper, massa "
+    "at elementum porta, neque nunc vehicula ligula, quis varius metus "
+    "mauris et lectus. Mauris eu risus ac nisi aliquam tempor vitae non "
+    "libero. Nulla eu risus at nunc placerat bibendum in et turpis. Sed nec "
+    "pharetra nulla, nec ultricies eros. Nunc dictum semper odio sed "
+    "ullamcorper. Aliquam pellentesque risus sed lorem sagittis, ut aliquam "
+    "augue tempor. Sed dictum urna vel ullamcorper ultrices. Class aptent "
+    "taciti sociosqu ad litora torquent per conubia nostra, per inceptos "
+    "himenaeos. Integer vestibulum pharetra arcu. Morbi bibendum justo "
+    "lorem, sed aliquam nulla tincidunt eget. Donec nec luctus arcu, id "
+    "fermentum sem. Morbi malesuada tempor elit eu lacinia."
+    ;
 }
 
 @end
