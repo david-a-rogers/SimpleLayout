@@ -27,6 +27,9 @@
 - (void)dealloc
 {
     [_topSlider release];
+    [_topLabel release];
+    [_bottomLabel release];
+    [_bottomSlider release];
     [super dealloc];
 }
 
