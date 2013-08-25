@@ -19,7 +19,7 @@
 {
     self = [super init];
     if (self) {
-        self.title = NSLocalizedString(@"Simple Layout", @"Simple Layout");
+        self.title = NSLocalizedString(@"Simple Layout One", @"Simple Layout One");
         self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
     return self;
@@ -50,10 +50,6 @@
     
     self.bottomSlider = [[[UISlider alloc] init] autorelease];
     [self.view addSubview:self.bottomSlider];
-}
-
--(void)viewDidAppear:(BOOL)animated {
-    NSLog(@"view frame is %@", NSStringFromCGRect(self.view.frame));
 }
 
 - (void)didReceiveMemoryWarning
