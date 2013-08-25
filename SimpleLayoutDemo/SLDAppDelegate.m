@@ -9,7 +9,7 @@
 #import "SLDAppDelegate.h"
 
 #import "SLDSimpleLayout2.h"
-#import "SLDSecondViewController.h"
+#import "SLDAutoLayout.h"
 #import "SLDSimpleLayout1.h"
 
 @implementation SLDAppDelegate
@@ -25,9 +25,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[SLDSimpleLayout2 alloc] init] autorelease];
-    UIViewController *viewController2 = [[[SLDSecondViewController alloc] init] autorelease];
-    UIViewController *viewController3 = [[[SLDSimpleLayout1 alloc] init] autorelease];
+    UIViewController *viewController1 = [[[SLDSimpleLayout1 alloc] init] autorelease];
+    UIViewController *viewController2 = [[[SLDSimpleLayout2 alloc] init] autorelease];
+    UIViewController *viewController3 = [[[SLDAutoLayout alloc] init] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
     self.tabBarController.viewControllers = @[viewController1, viewController2, viewController3];
     self.window.rootViewController = self.tabBarController;

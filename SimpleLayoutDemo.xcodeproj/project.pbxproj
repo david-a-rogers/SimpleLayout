@@ -23,10 +23,9 @@
 		FCEFB38717BEECC800762F7C /* SLDSimpleLayout2.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFB38617BEECC800762F7C /* SLDSimpleLayout2.m */; };
 		FCEFB38917BEECC800762F7C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEFB38817BEECC800762F7C /* first.png */; };
 		FCEFB38B17BEECC800762F7C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEFB38A17BEECC800762F7C /* first@2x.png */; };
-		FCEFB38E17BEECC800762F7C /* SLDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFB38D17BEECC800762F7C /* SLDSecondViewController.m */; };
+		FCEFB38E17BEECC800762F7C /* SLDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFB38D17BEECC800762F7C /* SLDAutoLayout.m */; };
 		FCEFB39017BEECC800762F7C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEFB38F17BEECC800762F7C /* second.png */; };
 		FCEFB39217BEECC800762F7C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEFB39117BEECC800762F7C /* second@2x.png */; };
-		FCEFB39817BEECC800762F7C /* SLDSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCEFB39617BEECC800762F7C /* SLDSecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,11 +53,10 @@
 		FCEFB38617BEECC800762F7C /* SLDSimpleLayout2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDSimpleLayout2.m; sourceTree = "<group>"; };
 		FCEFB38817BEECC800762F7C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		FCEFB38A17BEECC800762F7C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		FCEFB38C17BEECC800762F7C /* SLDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLDSecondViewController.h; sourceTree = "<group>"; };
-		FCEFB38D17BEECC800762F7C /* SLDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDSecondViewController.m; sourceTree = "<group>"; };
+		FCEFB38C17BEECC800762F7C /* SLDAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLDAutoLayout.h; sourceTree = "<group>"; };
+		FCEFB38D17BEECC800762F7C /* SLDAutoLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDAutoLayout.m; sourceTree = "<group>"; };
 		FCEFB38F17BEECC800762F7C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		FCEFB39117BEECC800762F7C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		FCEFB39717BEECC800762F7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SLDSecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,19 +107,18 @@
 				FCC198E317BFD4AB008AF1C9 /* UIView+SimpleLayout.m */,
 				FCEFB37C17BEECC800762F7C /* SLDAppDelegate.h */,
 				FCEFB37D17BEECC800762F7C /* SLDAppDelegate.m */,
-				FCEFB38517BEECC800762F7C /* SLDSimpleLayout2.h */,
-				FCEFB38617BEECC800762F7C /* SLDSimpleLayout2.m */,
-				FCEFB38C17BEECC800762F7C /* SLDSecondViewController.h */,
-				FCEFB38D17BEECC800762F7C /* SLDSecondViewController.m */,
 				FCC198DB17BF019E008AF1C9 /* SLDSimpleLayout1.h */,
 				FCC198DC17BF019E008AF1C9 /* SLDSimpleLayout1.m */,
+				FCEFB38517BEECC800762F7C /* SLDSimpleLayout2.h */,
+				FCEFB38617BEECC800762F7C /* SLDSimpleLayout2.m */,
+				FCEFB38C17BEECC800762F7C /* SLDAutoLayout.h */,
+				FCEFB38D17BEECC800762F7C /* SLDAutoLayout.m */,
 				FCEFB38817BEECC800762F7C /* first.png */,
 				FCEFB38A17BEECC800762F7C /* first@2x.png */,
 				FCEFB38F17BEECC800762F7C /* second.png */,
 				FCEFB39117BEECC800762F7C /* second@2x.png */,
 				FCC198DD17BF019E008AF1C9 /* third.png */,
 				FCC198DE17BF019E008AF1C9 /* third@2x.png */,
-				FCEFB39617BEECC800762F7C /* SLDSecondViewController.xib */,
 				FCEFB37417BEECC800762F7C /* Supporting Files */,
 			);
 			path = SimpleLayoutDemo;
@@ -202,7 +199,6 @@
 				FCEFB38B17BEECC800762F7C /* first@2x.png in Resources */,
 				FCEFB39017BEECC800762F7C /* second.png in Resources */,
 				FCEFB39217BEECC800762F7C /* second@2x.png in Resources */,
-				FCEFB39817BEECC800762F7C /* SLDSecondViewController.xib in Resources */,
 				FCC198E017BF019E008AF1C9 /* third.png in Resources */,
 				FCC198E117BF019E008AF1C9 /* third@2x.png in Resources */,
 			);
@@ -218,7 +214,7 @@
 				FCEFB37A17BEECC800762F7C /* main.m in Sources */,
 				FCEFB37E17BEECC800762F7C /* SLDAppDelegate.m in Sources */,
 				FCEFB38717BEECC800762F7C /* SLDSimpleLayout2.m in Sources */,
-				FCEFB38E17BEECC800762F7C /* SLDSecondViewController.m in Sources */,
+				FCEFB38E17BEECC800762F7C /* SLDAutoLayout.m in Sources */,
 				FCC198DF17BF019E008AF1C9 /* SLDSimpleLayout1.m in Sources */,
 				FCC198E417BFD4AB008AF1C9 /* UIView+SimpleLayout.m in Sources */,
 			);
@@ -233,14 +229,6 @@
 				FCEFB37717BEECC800762F7C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FCEFB39617BEECC800762F7C /* SLDSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCEFB39717BEECC800762F7C /* en */,
-			);
-			name = SLDSecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
