@@ -140,11 +140,9 @@
 -(void)layoutSubviews {
     UIInterfaceOrientation  orientation = [UIApplication sharedApplication].statusBarOrientation;
     if (orientation == UIDeviceOrientationPortrait || orientation == UIDeviceOrientationPortraitUpsideDown) {
-        NSLog(@"In portrait");
         [self doPortraitLayout];
     }
     else {
-        NSLog(@"In landscape");
         [self doLandscapeLayout];
     }
 }
