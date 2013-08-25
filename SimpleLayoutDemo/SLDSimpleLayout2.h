@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class SLDSimpleLayout2View;
+
 @interface SLDSimpleLayout2 : UIViewController
 
-@property (assign, nonatomic) UISlider* topSlider;
-@property (assign, nonatomic) UILabel* topLabel;
-@property (assign, nonatomic) UILabel* bottomLabel;
-@property (assign, nonatomic) UISlider* bottomSlider;
+@property (nonatomic, strong) SLDSimpleLayout2View* layout2View;
 
 @end
