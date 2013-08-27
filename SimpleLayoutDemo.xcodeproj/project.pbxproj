@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		FC1B118B17CA6DC600D5732A /* SLDSimpleLayout2View.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B118A17CA6DC600D5732A /* SLDSimpleLayout2View.m */; };
 		FCC198DF17BF019E008AF1C9 /* SLDSimpleLayout1.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC198DC17BF019E008AF1C9 /* SLDSimpleLayout1.m */; };
-		FCC198E017BF019E008AF1C9 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC198DD17BF019E008AF1C9 /* third.png */; };
-		FCC198E117BF019E008AF1C9 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC198DE17BF019E008AF1C9 /* third@2x.png */; };
 		FCC198E417BFD4AB008AF1C9 /* UIView+SimpleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC198E317BFD4AB008AF1C9 /* UIView+SimpleLayout.m */; };
 		FCEFB36E17BEECC800762F7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEFB36D17BEECC800762F7C /* UIKit.framework */; };
 		FCEFB37017BEECC800762F7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEFB36F17BEECC800762F7C /* Foundation.framework */; };
@@ -35,8 +33,6 @@
 		FC22732D17C6E7970023D3E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		FCC198DB17BF019E008AF1C9 /* SLDSimpleLayout1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDSimpleLayout1.h; sourceTree = "<group>"; };
 		FCC198DC17BF019E008AF1C9 /* SLDSimpleLayout1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDSimpleLayout1.m; sourceTree = "<group>"; };
-		FCC198DD17BF019E008AF1C9 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.png; sourceTree = "<group>"; };
-		FCC198DE17BF019E008AF1C9 /* third@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third@2x.png"; sourceTree = "<group>"; };
 		FCC198E217BFD4AB008AF1C9 /* UIView+SimpleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SimpleLayout.h"; sourceTree = "<group>"; };
 		FCC198E317BFD4AB008AF1C9 /* UIView+SimpleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SimpleLayout.m"; sourceTree = "<group>"; };
 		FCEFB36A17BEECC800762F7C /* SimpleLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +118,6 @@
 				FCEFB38A17BEECC800762F7C /* first@2x.png */,
 				FCEFB38F17BEECC800762F7C /* second.png */,
 				FCEFB39117BEECC800762F7C /* second@2x.png */,
-				FCC198DD17BF019E008AF1C9 /* third.png */,
-				FCC198DE17BF019E008AF1C9 /* third@2x.png */,
 				FCEFB37417BEECC800762F7C /* Supporting Files */,
 			);
 			path = SimpleLayoutDemo;
@@ -204,8 +198,6 @@
 				FCEFB38B17BEECC800762F7C /* first@2x.png in Resources */,
 				FCEFB39017BEECC800762F7C /* second.png in Resources */,
 				FCEFB39217BEECC800762F7C /* second@2x.png in Resources */,
-				FCC198E017BF019E008AF1C9 /* third.png in Resources */,
-				FCC198E117BF019E008AF1C9 /* third@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
