@@ -48,6 +48,8 @@ Here's a short example that lays out four controls:
 
 The code is concise, but readable.  And if you take a look at the sample project, you can see that this code makes use of the view's current size to layout the subviews.
 
+The SimpleLayout class and demo have the BSD license.  You can use SimpleLayout for free and commercial applications.
+
 Download the project, or read the documentation to learn more.
 
 SimpleLayout lives at https://github.com/david-a-rogers/SimpleLayout
